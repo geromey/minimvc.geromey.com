@@ -1,0 +1,6 @@
+{
+    "name": "geromey/minimvc.geromey.com",
+    "require": {
+        "geromey/minimvc": "dev-master"
+    }
+}
