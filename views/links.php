@@ -15,3 +15,7 @@
 <p>the source code of this site.</p>
 
 <p>This is a good example of how to build a website using minimvc.</p>
+
+<h2>Sites using minimvc</h2>
+
+<a href="http://minimvc.geromey.com">minimvc.geromey.com</a> indeed!
