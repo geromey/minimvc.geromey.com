@@ -1,9 +1,9 @@
 @CHARSET "ISO-8859-1";
-@import url(http://fonts.googleapis.com/css?family=Cherry+Swash);
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
-/*@import url(http://fonts.googleapis.com/css?family=Ruluko);*/
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
 
 body {
+    font-family: 'Droid Sans', cursive;
     background-color: #f3efe6;
     font-family: 'Ruluko', sans-serif;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #cccccc;
+    color: #088576;
 }
 
 #container {
@@ -46,24 +46,24 @@ a {
 
 #menu {
     font-family: 'Droid Sans', sans-serif;
-    border-left: 3px #c6d3b7 solid;
+    border-bottom: 1px solid #d8d5cf;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #menu ul {
-		margin: 0;
-		padding: 0;
-		list-style-type: none;
-		background-color: #adbd98;
+	padding: 0;
+	list-style-type: none;
+    margin: 0 auto;
 }
 
 #menu li {
-		margin: 0;
+	margin: 0;
     display: inline-block;
     list-style: none;
-    background-color: #adbd98;
     color: #6a6c67;
-    border-right: 3px #c6d3b7 solid;
-    padding: 0px 20px;    
+    padding: 0px 20px;
 }
 
 #menu li img {
@@ -77,35 +77,36 @@ a {
 }
 
 #menu li a {
-		display: block;
-		line-height: 30px;
-		margin: 0;
-		padding: 0;
-		vertical-align: middle;
-		color: #555555;
+	display: block;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	color: #555555;
 }
 #footer a {
     color: #000000;
 }
 #footer {
+    font-family: 'Droid Sans', cursive;
     padding: 20px;
     text-align: center;
 }
 
 h1, h2 {
-	font-family: 'Cherry Swash', cursive;
+	font-family: 'Droid Sans', cursive;
     margin: 0;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
     padding: 15px 0 20px;
     
 }
 
 h2 {
-    font-size: 45px;
+    font-size: 25px;
     padding: 30px 0 22px 22px;
     clear: both;
 }

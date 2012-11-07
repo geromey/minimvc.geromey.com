@@ -8,11 +8,24 @@ class Controller extends minimvc\Controller {
         return __DIR__ . '/../../views';
     }
 
+    protected function preRun() {
+        // menu displayed in the layout views/__default.php
+        $this->menu = array(
+            ''        =>'home',
+            'install' => 'install',
+            'links'   =>'useful links',
+        );
+    }   
+
     protected function doIndex() {
 
     }
 
-    protected function preRun() {
+    protected function doInstall() {
 
-    }   
+    }
+
+    protected function doLinks() {
+
+    }
 }
