@@ -1,0 +1,113 @@
+@CHARSET "ISO-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Cherry+Swash);
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+body {
+    background-color: #c1c1c1;
+    font-family: 'Ruluko', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #cccccc;
+}
+
+#container {
+    width: 900px;
+    background-color: #9d9e00;
+    margin: 15px auto;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#header {
+	font-family: 'Cherry Swash', cursive;
+	font-size: 55px;
+	height: 100px;
+	/*background: #9d9e00 url(../images/logo.jpg);*/
+    background-color: #7d7e00;
+    color: #ffffff;
+    padding: 30px 0px 5px 20px;
+    -moz-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+#content {
+		background-color: #9d9e00;
+		clear: both;
+		color: #ffffff;
+		font-size: 22px;
+		padding: 30px;
+		line-height: 26px;
+		text-align:justify;
+}
+
+#menu {
+    font-family: 'Ruluko', sans-serif;
+    border-left: 3px #c6d3b7 solid;
+}
+
+#menu ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		background-color: #adbd98;
+}
+
+#menu li {
+		margin: 0;
+    display: inline-block;
+    list-style: none;
+    background-color: #adbd98;
+    color: #6a6c67;
+    border-right: 3px #c6d3b7 solid;
+    padding: 0px 20px;    
+}
+
+#menu li img {
+    width: 39px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 4px;
+    border: 0;
+}
+
+#menu li a {
+		display: block;
+		line-height: 30px;
+		margin: 0;
+		padding: 0;
+		vertical-align: middle;
+		color: #555555;
+}
+#footer a {
+    color: #000000;
+}
+#footer {
+    background-color: #d7d7d7;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+h1, h2 {
+		font-family: 'Cherry Swash', cursive;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding: 15px 0 20px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 45px;
+    padding: 30px 0 22px 22px;
+    margin: 0;
+    clear: both;
+}
