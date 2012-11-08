@@ -4,8 +4,6 @@
         "geromey/minimvc": "dev-master"
     },
     "autoload": {
-        "psr-0": {
-            "minimvcSite": "src/"
-        }
+        "classmap": [ "src/" ]
     }
 }
