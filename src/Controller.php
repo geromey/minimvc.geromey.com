@@ -5,7 +5,7 @@ use minimvc;
 class Controller extends minimvc\Controller {
 
     protected function getViewPath() {
-        return __DIR__ . '/../../views';
+        return __DIR__ . '/../views';
     }
 
     protected function preRun() {
