@@ -11,9 +11,9 @@ class Controller extends minimvc\Controller {
     protected function preRun() {
         // menu displayed in the layout views/__default.php
         $this->menu = array(
-            ''        =>'home',
+            ''        => 'home',
             'install' => 'install',
-            'links'   =>'useful links',
+            'links'   => 'useful links',
         );
     }   
 
